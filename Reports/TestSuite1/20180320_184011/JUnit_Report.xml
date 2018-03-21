@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestSuite1" time="4" tests="0" failures="1" errors="0">
+   <testsuite name="TestSuite1" tests="0" failures="1" errors="0" time="4" timestamp="2018-03-20 18:40:18" hostname="Petko - PETBUL" id="Test Suites/TestSuite1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Petko\\Katalon Studio\\QAWorksAcceptanceTestContactForm\\Reports\\TestSuite1\\20180320_184011"/>
+         <property name="logFiles" value="C:\\Users\\Petko\\Katalon Studio\\QAWorksAcceptanceTestContactForm\\Reports\\TestSuite1\\20180320_184011\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Petko - PETBUL"/>
+         <property name="hostAddress" value="192.168.112.1"/>
+         <property name="os" value="Windows 8.1 64bit"/>
+         <property name="katalonVersion" value="5.3.1.1"/>
+      </properties>
+      <testcase name="Test Cases/TestCase01" classname="Test Cases/TestCase01" status="FAILED">
+         <failure type="FAILED" message="Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: SafariDriver requires Safari 10 running on OSX El Capitan or greater.
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'PETBUL', ip: '192.168.112.1', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: driver.version: CSafariDriver)"/>
+         <system-out><![CDATA[2018-03-20 18:40:19 - [TEST_CASE][FAILED] - Test Cases/TestCase01: Test Cases/TestCase01 FAILED because (of) Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: SafariDriver requires Safari 10 running on OSX El Capitan or greater.
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'PETBUL', ip: '192.168.112.1', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: driver.version: CSafariDriver)
+
+2018-03-20 18:40:20 - [TEST_STEP][FAILED] - Statement - For ([row = 1, row <= com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataQAWorksAcceptanceContactForm).getRowNumbers(), (row++)]): Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: SafariDriver requires Safari 10 running on OSX El Capitan or greater.
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'PETBUL', ip: '192.168.112.1', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: driver.version: CSafariDriver)
+
+2018-03-20 18:40:22 - [TEST_STEP][FAILED] - openBrowser: Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: SafariDriver requires Safari 10 running on OSX El Capitan or greater.
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'PETBUL', ip: '192.168.112.1', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: driver.version: CSafariDriver)
+
+2018-03-20 18:40:22 - [MESSAGE][FAILED] - Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: SafariDriver requires Safari 10 running on OSX El Capitan or greater.
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'PETBUL', ip: '192.168.112.1', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: driver.version: CSafariDriver)]]></system-out>
+         <system-err><![CDATA[2018-03-20 18:40:19 - [TEST_CASE][FAILED] - Test Cases/TestCase01: Test Cases/TestCase01 FAILED because (of) Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: SafariDriver requires Safari 10 running on OSX El Capitan or greater.
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'PETBUL', ip: '192.168.112.1', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: driver.version: CSafariDriver)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-03-20 18:40:18 - [TEST_SUITE][FAILED] - TestSuite1: Test Cases/TestCase01 FAILED because (of) Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: SafariDriver requires Safari 10 running on OSX El Capitan or greater.
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'PETBUL', ip: '192.168.112.1', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: driver.version: CSafariDriver)]]></system-out>
+      <system-err><![CDATA[2018-03-20 18:40:18 - [TEST_SUITE][FAILED] - TestSuite1: Test Cases/TestCase01 FAILED because (of) Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: SafariDriver requires Safari 10 running on OSX El Capitan or greater.
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'PETBUL', ip: '192.168.112.1', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: driver.version: CSafariDriver)]]></system-err>
+   </testsuite>
+</testsuites>

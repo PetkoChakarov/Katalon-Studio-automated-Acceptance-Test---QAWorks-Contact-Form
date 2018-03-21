@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TestSuite1,Chrome 64.0.3282.167,,2018-03-20 18:42:13,2018-03-20 18:42:30,16.852s,FAILED
+,,,,,,
+Test Cases/TestCase01,Chrome 64.0.3282.167,,2018-03-20 18:42:14,2018-03-20 18:42:29,15.372s,FAILED
+"Statement - For ([row = 1, row <= com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataQAWorksAcceptanceContactForm).getRowNumbers(), (row++)])",Chrome 64.0.3282.167,,2018-03-20 18:42:14,2018-03-20 18:42:29,14.527s,FAILED

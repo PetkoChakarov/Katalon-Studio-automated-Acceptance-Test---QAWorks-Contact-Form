@@ -1,0 +1,569 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestSuite1" time="192" tests="1" failures="0" errors="0">
+   <testsuite name="TestSuite1" tests="1" failures="0" errors="0" time="192" timestamp="2018-03-20 17:40:02" hostname="Petko - PETBUL" id="Test Suites/TestSuite1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Petko\\Katalon Studio\\QAWorksAcceptanceTestContactForm\\Reports\\TestSuite1\\20180320_173955"/>
+         <property name="logFiles" value="C:\\Users\\Petko\\Katalon Studio\\QAWorksAcceptanceTestContactForm\\Reports\\TestSuite1\\20180320_173955\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Petko - PETBUL"/>
+         <property name="os" value="Windows 8.1 64bit"/>
+         <property name="katalonVersion" value="5.3.1.1"/>
+         <property name="browser" value="Chrome 64.0.3282.167"/>
+         <property name="hostAddress" value="192.168.112.1"/>
+         <property name="sessionId" value="25ccbb8e87a7e8c5cd270009b7023ff3"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 8.1"/>
+      </properties>
+      <testcase name="Test Cases/TestCase01" classname="Test Cases/TestCase01" status="PASSED">
+         <system-out><![CDATA[2018-03-20 17:40:03 - [TEST_CASE][PASSED] - Test Cases/TestCase01: Test Cases/TestCase01
+
+2018-03-20 17:40:04 - [TEST_STEP][PASSED] - Statement - For ([row = 1, row <= com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataQAWorksAcceptanceContactForm).getRowNumbers(), (row++)]): Browser is closed
+
+2018-03-20 17:40:06 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-20 17:40:11 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-20 17:40:11 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://www.qaworks.com/' successfully
+
+2018-03-20 17:40:15 - [MESSAGE][PASSED] - Navigate to 'http://www.qaworks.com/' successfully
+
+2018-03-20 17:40:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_QAWorks Limited - Software Qua/span_CONTACT US' is clicked on
+
+2018-03-20 17:40:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_QAWorks Limited - Software Qua/span_CONTACT US' is clicked on
+
+2018-03-20 17:40:16 - [TEST_STEP][PASSED] - setText: Text 'j.Bloggs' is set on object 'Object Repository/Page_CONTACT US  QAWorks Limited/input_your-name'
+
+2018-03-20 17:40:17 - [MESSAGE][PASSED] - Text 'j.Bloggs' is set on object 'Object Repository/Page_CONTACT US  QAWorks Limited/input_your-name'
+
+2018-03-20 17:40:17 - [TEST_STEP][PASSED] - setText: Text 'chakarovp@gmail.com' is set on object 'Object Repository/Page_CONTACT US  QAWorks Limited/input_your-email'
+
+2018-03-20 17:40:18 - [MESSAGE][PASSED] - Text 'chakarovp@gmail.com' is set on object 'Object Repository/Page_CONTACT US  QAWorks Limited/input_your-email'
+
+2018-03-20 17:40:18 - [TEST_STEP][PASSED] - setText: Text 'test automation' is set on object 'Object Repository/Page_CONTACT US  QAWorks Limited/input_your-company'
+
+2018-03-20 17:40:19 - [MESSAGE][PASSED] - Text 'test automation' is set on object 'Object Repository/Page_CONTACT US  QAWorks Limited/input_your-company'
+
+2018-03-20 17:40:19 - [TEST_STEP][PASSED] - setText: Text 'please contact me I want to find out more' is set on object 'Object Repository/Page_CONTACT US  QAWorks Limited/textarea_your-message'
+
+2018-03-20 17:40:19 - [MESSAGE][PASSED] - Text 'please contact me I want to find out more' is set on object 'Object Repository/Page_CONTACT US  QAWorks Limited/textarea_your-message'
+
+2018-03-20 17:40:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_CONTACT US  QAWorks Limited/input_contact-us-send' is clicked on
+
+2018-03-20 17:40:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CONTACT US  QAWorks Limited/input_contact-us-send' is clicked on
+
+2018-03-20 17:40:20 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-03-20 17:40:20 - [MESSAGE][PASSED] - Browser is closed
+
+2018-03-20 17:40:20 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-20 17:40:22 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-20 17:40:22 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://www.qaworks.com/' successfully
+
+2018-03-20 17:40:26 - [MESSAGE][PASSED] - Navigate to 'http://www.qaworks.com/' successfully
+
+2018-03-20 17:40:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_QAWorks Limited - Software Qua/span_CONTACT US' is clicked on
+
+2018-03-20 17:40:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_QAWorks Limited - Software Qua/span_CONTACT US' is clicked on
+
+2018-03-20 17:40:27 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Page_CONTACT US  QAWorks Limited/input_your-name'
+
+2018-03-20 17:40:28 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_CONTACT US  QAWorks Limited/input_your-name'
+
+2018-03-20 17:40:28 - [TEST_STEP][PASSED] - setText: Text 'chakarovp@gmail.com' is set on object 'Object Repository/Page_CONTACT US  QAWorks Limited/input_your-email'
+
+2018-03-20 17:40:29 - [MESSAGE][PASSED] - Text 'chakarovp@gmail.com' is set on object 'Object Repository/Page_CONTACT US  QAWorks Limited/input_your-email'
+
+2018-03-20 17:40:29 - [TEST_STEP][PASSED] - setText: Text 'test automation' is set on object 'Object Repository/Page_CONTACT US  QAWorks Limited/input_your-company'
+
+2018-03-20 17:40:29 - [MESSAGE][PASSED] - Text 'test automation' is set on object 'Object Repository/Page_CONTACT US  QAWorks Limited/input_your-company'
+
+2018-03-20 17:40:29 - [TEST_STEP][PASSED] - setText: Text 'please contact me I want to find out more' is set on object 'Object Repository/Page_CONTACT US  QAWorks Limited/textarea_your-message'
+
+2018-03-20 17:40:30 - [MESSAGE][PASSED] - Text 'please contact me I want to find out more' is set on object 'Object Repository/Page_CONTACT US  QAWorks Limited/textarea_your-message'
+
+2018-03-20 17:40:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_CONTACT US  QAWorks Limited/input_contact-us-send' is clicked on
+
+2018-03-20 17:40:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CONTACT US  QAWorks Limited/input_contact-us-send' is clicked on
+
+2018-03-20 17:40:30 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-03-20 17:40:30 - [MESSAGE][PASSED] - Browser is closed
+
+2018-03-20 17:40:31 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-20 17:40:33 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-20 17:40:33 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://www.qaworks.com/' successfully
+
+2018-03-20 17:40:37 - [MESSAGE][PASSED] - Navigate to 'http://www.qaworks.com/' successfully
+
+2018-03-20 17:40:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_QAWorks Limited - Software Qua/span_CONTACT US' is clicked on
+
+2018-03-20 17:40:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_QAWorks Limited - Software Qua/span_CONTACT US' is clicked on
+
+2018-03-20 17:40:39 - [TEST_STEP][PASSED] - setText: Text 'j.Bloggs' is set on object 'Object Repository/Page_CONTACT US  QAWorks Limited/input_your-name'
+
+2018-03-20 17:40:40 - [MESSAGE][PASSED] - Text 'j.Bloggs' is set on object 'Object Repository/Page_CONTACT US  QAWorks Limited/input_your-name'
+
+2018-03-20 17:40:40 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Page_CONTACT US  QAWorks Limited/input_your-email'
+
+2018-03-20 17:40:40 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_CONTACT US  QAWorks Limited/input_your-email'
+
+2018-03-20 17:40:40 - [TEST_STEP][PASSED] - setText: Text 'test automation' is set on object 'Object Repository/Page_CONTACT US  QAWorks Limited/input_your-company'
+
+2018-03-20 17:40:41 - [MESSAGE][PASSED] - Text 'test automation' is set on object 'Object Repository/Page_CONTACT US  QAWorks Limited/input_your-company'
+
+2018-03-20 17:40:41 - [TEST_STEP][PASSED] - setText: Text 'please contact me I want to find out more' is set on object 'Object Repository/Page_CONTACT US  QAWorks Limited/textarea_your-message'
+
+2018-03-20 17:40:41 - [MESSAGE][PASSED] - Text 'please contact me I want to find out more' is set on object 'Object Repository/Page_CONTACT US  QAWorks Limited/textarea_your-message'
+
+2018-03-20 17:40:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_CONTACT US  QAWorks Limited/input_contact-us-send' is clicked on
+
+2018-03-20 17:40:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CONTACT US  QAWorks Limited/input_contact-us-send' is clicked on
+
+2018-03-20 17:40:41 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-03-20 17:40:42 - [MESSAGE][PASSED] - Browser is closed
+
+2018-03-20 17:40:42 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-20 17:40:44 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-20 17:40:44 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://www.qaworks.com/' successfully
+
+2018-03-20 17:40:48 - [MESSAGE][PASSED] - Navigate to 'http://www.qaworks.com/' successfully
+
+2018-03-20 17:40:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_QAWorks Limited - Software Qua/span_CONTACT US' is clicked on
+
+2018-03-20 17:40:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_QAWorks Limited - Software Qua/span_CONTACT US' is clicked on
+
+2018-03-20 17:40:49 - [TEST_STEP][PASSED] - setText: Text 'j.Bloggs' is set on object 'Object Repository/Page_CONTACT US  QAWorks Limited/input_your-name'
+
+2018-03-20 17:40:50 - [MESSAGE][PASSED] - Text 'j.Bloggs' is set on object 'Object Repository/Page_CONTACT US  QAWorks Limited/input_your-name'
+
+2018-03-20 17:40:50 - [TEST_STEP][PASSED] - setText: Text 'chakarovp@gmail.com' is set on object 'Object Repository/Page_CONTACT US  QAWorks Limited/input_your-email'
+
+2018-03-20 17:40:51 - [MESSAGE][PASSED] - Text 'chakarovp@gmail.com' is set on object 'Object Repository/Page_CONTACT US  QAWorks Limited/input_your-email'
+
+2018-03-20 17:40:51 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Page_CONTACT US  QAWorks Limited/input_your-company'
+
+2018-03-20 17:40:51 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_CONTACT US  QAWorks Limited/input_your-company'
+
+2018-03-20 17:40:51 - [TEST_STEP][PASSED] - setText: Text 'please contact me I want to find out more' is set on object 'Object Repository/Page_CONTACT US  QAWorks Limited/textarea_your-message'
+
+2018-03-20 17:40:52 - [MESSAGE][PASSED] - Text 'please contact me I want to find out more' is set on object 'Object Repository/Page_CONTACT US  QAWorks Limited/textarea_your-message'
+
+2018-03-20 17:40:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_CONTACT US  QAWorks Limited/input_contact-us-send' is clicked on
+
+2018-03-20 17:40:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CONTACT US  QAWorks Limited/input_contact-us-send' is clicked on
+
+2018-03-20 17:40:52 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-03-20 17:40:53 - [MESSAGE][PASSED] - Browser is closed
+
+2018-03-20 17:40:53 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-20 17:40:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-20 17:40:55 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://www.qaworks.com/' successfully
+
+2018-03-20 17:40:59 - [MESSAGE][PASSED] - Navigate to 'http://www.qaworks.com/' successfully
+
+2018-03-20 17:40:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_QAWorks Limited - Software Qua/span_CONTACT US' is clicked on
+
+2018-03-20 17:41:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_QAWorks Limited - Software Qua/span_CONTACT US' is clicked on
+
+2018-03-20 17:41:00 - [TEST_STEP][PASSED] - setText: Text 'j.Bloggs' is set on object 'Object Repository/Page_CONTACT US  QAWorks Limited/input_your-name'
+
+2018-03-20 17:41:01 - [MESSAGE][PASSED] - Text 'j.Bloggs' is set on object 'Object Repository/Page_CONTACT US  QAWorks Limited/input_your-name'
+
+2018-03-20 17:41:01 - [TEST_STEP][PASSED] - setText: Text 'chakarovp@gmail.com' is set on object 'Object Repository/Page_CONTACT US  QAWorks Limited/input_your-email'
+
+2018-03-20 17:41:02 - [MESSAGE][PASSED] - Text 'chakarovp@gmail.com' is set on object 'Object Repository/Page_CONTACT US  QAWorks Limited/input_your-email'
+
+2018-03-20 17:41:02 - [TEST_STEP][PASSED] - setText: Text 'test automation' is set on object 'Object Repository/Page_CONTACT US  QAWorks Limited/input_your-company'
+
+2018-03-20 17:41:02 - [MESSAGE][PASSED] - Text 'test automation' is set on object 'Object Repository/Page_CONTACT US  QAWorks Limited/input_your-company'
+
+2018-03-20 17:41:02 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Page_CONTACT US  QAWorks Limited/textarea_your-message'
+
+2018-03-20 17:41:02 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_CONTACT US  QAWorks Limited/textarea_your-message'
+
+2018-03-20 17:41:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_CONTACT US  QAWorks Limited/input_contact-us-send' is clicked on
+
+2018-03-20 17:41:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CONTACT US  QAWorks Limited/input_contact-us-send' is clicked on
+
+2018-03-20 17:41:03 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-03-20 17:41:03 - [MESSAGE][PASSED] - Browser is closed
+
+2018-03-20 17:41:03 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-20 17:41:06 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-20 17:41:06 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://www.qaworks.com/' successfully
+
+2018-03-20 17:41:10 - [MESSAGE][PASSED] - Navigate to 'http://www.qaworks.com/' successfully
+
+2018-03-20 17:41:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_QAWorks Limited - Software Qua/span_CONTACT US' is clicked on
+
+2018-03-20 17:41:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_QAWorks Limited - Software Qua/span_CONTACT US' is clicked on
+
+2018-03-20 17:41:11 - [TEST_STEP][PASSED] - setText: Text 'j' is set on object 'Object Repository/Page_CONTACT US  QAWorks Limited/input_your-name'
+
+2018-03-20 17:41:12 - [MESSAGE][PASSED] - Text 'j' is set on object 'Object Repository/Page_CONTACT US  QAWorks Limited/input_your-name'
+
+2018-03-20 17:41:12 - [TEST_STEP][PASSED] - setText: Text 'chakarovp@gmail.com' is set on object 'Object Repository/Page_CONTACT US  QAWorks Limited/input_your-email'
+
+2018-03-20 17:41:12 - [MESSAGE][PASSED] - Text 'chakarovp@gmail.com' is set on object 'Object Repository/Page_CONTACT US  QAWorks Limited/input_your-email'
+
+2018-03-20 17:41:12 - [TEST_STEP][PASSED] - setText: Text 'test automation' is set on object 'Object Repository/Page_CONTACT US  QAWorks Limited/input_your-company'
+
+2018-03-20 17:41:13 - [MESSAGE][PASSED] - Text 'test automation' is set on object 'Object Repository/Page_CONTACT US  QAWorks Limited/input_your-company'
+
+2018-03-20 17:41:13 - [TEST_STEP][PASSED] - setText: Text 'please contact me I want to find out more' is set on object 'Object Repository/Page_CONTACT US  QAWorks Limited/textarea_your-message'
+
+2018-03-20 17:41:14 - [MESSAGE][PASSED] - Text 'please contact me I want to find out more' is set on object 'Object Repository/Page_CONTACT US  QAWorks Limited/textarea_your-message'
+
+2018-03-20 17:41:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_CONTACT US  QAWorks Limited/input_contact-us-send' is clicked on
+
+2018-03-20 17:41:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CONTACT US  QAWorks Limited/input_contact-us-send' is clicked on
+
+2018-03-20 17:41:14 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-03-20 17:41:14 - [MESSAGE][PASSED] - Browser is closed
+
+2018-03-20 17:41:14 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-20 17:41:17 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-20 17:41:17 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://www.qaworks.com/' successfully
+
+2018-03-20 17:41:20 - [MESSAGE][PASSED] - Navigate to 'http://www.qaworks.com/' successfully
+
+2018-03-20 17:41:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_QAWorks Limited - Software Qua/span_CONTACT US' is clicked on
+
+2018-03-20 17:41:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_QAWorks Limited - Software Qua/span_CONTACT US' is clicked on
+
+2018-03-20 17:41:21 - [TEST_STEP][PASSED] - setText: Text 'j.Bloggs' is set on object 'Object Repository/Page_CONTACT US  QAWorks Limited/input_your-name'
+
+2018-03-20 17:41:23 - [MESSAGE][PASSED] - Text 'j.Bloggs' is set on object 'Object Repository/Page_CONTACT US  QAWorks Limited/input_your-name'
+
+2018-03-20 17:41:23 - [TEST_STEP][PASSED] - setText: Text 'blogggss@qaworks.com' is set on object 'Object Repository/Page_CONTACT US  QAWorks Limited/input_your-email'
+
+2018-03-20 17:41:23 - [MESSAGE][PASSED] - Text 'blogggss@qaworks.com' is set on object 'Object Repository/Page_CONTACT US  QAWorks Limited/input_your-email'
+
+2018-03-20 17:41:23 - [TEST_STEP][PASSED] - setText: Text 'test automation' is set on object 'Object Repository/Page_CONTACT US  QAWorks Limited/input_your-company'
+
+2018-03-20 17:41:24 - [MESSAGE][PASSED] - Text 'test automation' is set on object 'Object Repository/Page_CONTACT US  QAWorks Limited/input_your-company'
+
+2018-03-20 17:41:24 - [TEST_STEP][PASSED] - setText: Text 'please contact me I want to find out more' is set on object 'Object Repository/Page_CONTACT US  QAWorks Limited/textarea_your-message'
+
+2018-03-20 17:41:24 - [MESSAGE][PASSED] - Text 'please contact me I want to find out more' is set on object 'Object Repository/Page_CONTACT US  QAWorks Limited/textarea_your-message'
+
+2018-03-20 17:41:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_CONTACT US  QAWorks Limited/input_contact-us-send' is clicked on
+
+2018-03-20 17:41:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CONTACT US  QAWorks Limited/input_contact-us-send' is clicked on
+
+2018-03-20 17:41:24 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-03-20 17:41:25 - [MESSAGE][PASSED] - Browser is closed
+
+2018-03-20 17:41:25 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-20 17:41:28 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-20 17:41:28 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://www.qaworks.com/' successfully
+
+2018-03-20 17:41:32 - [MESSAGE][PASSED] - Navigate to 'http://www.qaworks.com/' successfully
+
+2018-03-20 17:41:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_QAWorks Limited - Software Qua/span_CONTACT US' is clicked on
+
+2018-03-20 17:41:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_QAWorks Limited - Software Qua/span_CONTACT US' is clicked on
+
+2018-03-20 17:41:33 - [TEST_STEP][PASSED] - setText: Text 'j.Bloggs' is set on object 'Object Repository/Page_CONTACT US  QAWorks Limited/input_your-name'
+
+2018-03-20 17:41:34 - [MESSAGE][PASSED] - Text 'j.Bloggs' is set on object 'Object Repository/Page_CONTACT US  QAWorks Limited/input_your-name'
+
+2018-03-20 17:41:34 - [TEST_STEP][PASSED] - setText: Text 'chakarovp@gmailcom' is set on object 'Object Repository/Page_CONTACT US  QAWorks Limited/input_your-email'
+
+2018-03-20 17:41:34 - [MESSAGE][PASSED] - Text 'chakarovp@gmailcom' is set on object 'Object Repository/Page_CONTACT US  QAWorks Limited/input_your-email'
+
+2018-03-20 17:41:34 - [TEST_STEP][PASSED] - setText: Text 'test automation' is set on object 'Object Repository/Page_CONTACT US  QAWorks Limited/input_your-company'
+
+2018-03-20 17:41:35 - [MESSAGE][PASSED] - Text 'test automation' is set on object 'Object Repository/Page_CONTACT US  QAWorks Limited/input_your-company'
+
+2018-03-20 17:41:35 - [TEST_STEP][PASSED] - setText: Text 'please contact me I want to find out more' is set on object 'Object Repository/Page_CONTACT US  QAWorks Limited/textarea_your-message'
+
+2018-03-20 17:41:35 - [MESSAGE][PASSED] - Text 'please contact me I want to find out more' is set on object 'Object Repository/Page_CONTACT US  QAWorks Limited/textarea_your-message'
+
+2018-03-20 17:41:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_CONTACT US  QAWorks Limited/input_contact-us-send' is clicked on
+
+2018-03-20 17:41:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CONTACT US  QAWorks Limited/input_contact-us-send' is clicked on
+
+2018-03-20 17:41:35 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-03-20 17:41:36 - [MESSAGE][PASSED] - Browser is closed
+
+2018-03-20 17:41:36 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-20 17:41:38 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-20 17:41:38 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://www.qaworks.com/' successfully
+
+2018-03-20 17:41:43 - [MESSAGE][PASSED] - Navigate to 'http://www.qaworks.com/' successfully
+
+2018-03-20 17:41:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_QAWorks Limited - Software Qua/span_CONTACT US' is clicked on
+
+2018-03-20 17:41:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_QAWorks Limited - Software Qua/span_CONTACT US' is clicked on
+
+2018-03-20 17:41:44 - [TEST_STEP][PASSED] - setText: Text 'j.Bloggs' is set on object 'Object Repository/Page_CONTACT US  QAWorks Limited/input_your-name'
+
+2018-03-20 17:41:45 - [MESSAGE][PASSED] - Text 'j.Bloggs' is set on object 'Object Repository/Page_CONTACT US  QAWorks Limited/input_your-name'
+
+2018-03-20 17:41:45 - [TEST_STEP][PASSED] - setText: Text 'chakarovp@gmail.com' is set on object 'Object Repository/Page_CONTACT US  QAWorks Limited/input_your-email'
+
+2018-03-20 17:41:46 - [MESSAGE][PASSED] - Text 'chakarovp@gmail.com' is set on object 'Object Repository/Page_CONTACT US  QAWorks Limited/input_your-email'
+
+2018-03-20 17:41:46 - [TEST_STEP][PASSED] - setText: Text 't' is set on object 'Object Repository/Page_CONTACT US  QAWorks Limited/input_your-company'
+
+2018-03-20 17:41:46 - [MESSAGE][PASSED] - Text 't' is set on object 'Object Repository/Page_CONTACT US  QAWorks Limited/input_your-company'
+
+2018-03-20 17:41:46 - [TEST_STEP][PASSED] - setText: Text 'please contact me I want to find out more' is set on object 'Object Repository/Page_CONTACT US  QAWorks Limited/textarea_your-message'
+
+2018-03-20 17:41:47 - [MESSAGE][PASSED] - Text 'please contact me I want to find out more' is set on object 'Object Repository/Page_CONTACT US  QAWorks Limited/textarea_your-message'
+
+2018-03-20 17:41:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_CONTACT US  QAWorks Limited/input_contact-us-send' is clicked on
+
+2018-03-20 17:41:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CONTACT US  QAWorks Limited/input_contact-us-send' is clicked on
+
+2018-03-20 17:41:47 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-03-20 17:41:48 - [MESSAGE][PASSED] - Browser is closed
+
+2018-03-20 17:41:48 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-20 17:41:50 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-20 17:41:50 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://www.qaworks.com/' successfully
+
+2018-03-20 17:41:54 - [MESSAGE][PASSED] - Navigate to 'http://www.qaworks.com/' successfully
+
+2018-03-20 17:41:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_QAWorks Limited - Software Qua/span_CONTACT US' is clicked on
+
+2018-03-20 17:41:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_QAWorks Limited - Software Qua/span_CONTACT US' is clicked on
+
+2018-03-20 17:41:55 - [TEST_STEP][PASSED] - setText: Text 'j.Bloggs' is set on object 'Object Repository/Page_CONTACT US  QAWorks Limited/input_your-name'
+
+2018-03-20 17:41:56 - [MESSAGE][PASSED] - Text 'j.Bloggs' is set on object 'Object Repository/Page_CONTACT US  QAWorks Limited/input_your-name'
+
+2018-03-20 17:41:56 - [TEST_STEP][PASSED] - setText: Text 'chakarovp@gmail.com' is set on object 'Object Repository/Page_CONTACT US  QAWorks Limited/input_your-email'
+
+2018-03-20 17:41:57 - [MESSAGE][PASSED] - Text 'chakarovp@gmail.com' is set on object 'Object Repository/Page_CONTACT US  QAWorks Limited/input_your-email'
+
+2018-03-20 17:41:57 - [TEST_STEP][PASSED] - setText: Text 'test automation' is set on object 'Object Repository/Page_CONTACT US  QAWorks Limited/input_your-company'
+
+2018-03-20 17:41:57 - [MESSAGE][PASSED] - Text 'test automation' is set on object 'Object Repository/Page_CONTACT US  QAWorks Limited/input_your-company'
+
+2018-03-20 17:41:57 - [TEST_STEP][PASSED] - setText: Text 'p' is set on object 'Object Repository/Page_CONTACT US  QAWorks Limited/textarea_your-message'
+
+2018-03-20 17:41:57 - [MESSAGE][PASSED] - Text 'p' is set on object 'Object Repository/Page_CONTACT US  QAWorks Limited/textarea_your-message'
+
+2018-03-20 17:41:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_CONTACT US  QAWorks Limited/input_contact-us-send' is clicked on
+
+2018-03-20 17:41:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CONTACT US  QAWorks Limited/input_contact-us-send' is clicked on
+
+2018-03-20 17:41:58 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-03-20 17:41:58 - [MESSAGE][PASSED] - Browser is closed
+
+2018-03-20 17:41:58 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-20 17:42:01 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-20 17:42:01 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://www.qaworks.com/' successfully
+
+2018-03-20 17:42:04 - [MESSAGE][PASSED] - Navigate to 'http://www.qaworks.com/' successfully
+
+2018-03-20 17:42:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_QAWorks Limited - Software Qua/span_CONTACT US' is clicked on
+
+2018-03-20 17:42:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_QAWorks Limited - Software Qua/span_CONTACT US' is clicked on
+
+2018-03-20 17:42:06 - [TEST_STEP][PASSED] - setText: Text 'j.%100' is set on object 'Object Repository/Page_CONTACT US  QAWorks Limited/input_your-name'
+
+2018-03-20 17:42:07 - [MESSAGE][PASSED] - Text 'j.%100' is set on object 'Object Repository/Page_CONTACT US  QAWorks Limited/input_your-name'
+
+2018-03-20 17:42:07 - [TEST_STEP][PASSED] - setText: Text 'chakarovp@gmail.com' is set on object 'Object Repository/Page_CONTACT US  QAWorks Limited/input_your-email'
+
+2018-03-20 17:42:07 - [MESSAGE][PASSED] - Text 'chakarovp@gmail.com' is set on object 'Object Repository/Page_CONTACT US  QAWorks Limited/input_your-email'
+
+2018-03-20 17:42:07 - [TEST_STEP][PASSED] - setText: Text 'test automation' is set on object 'Object Repository/Page_CONTACT US  QAWorks Limited/input_your-company'
+
+2018-03-20 17:42:08 - [MESSAGE][PASSED] - Text 'test automation' is set on object 'Object Repository/Page_CONTACT US  QAWorks Limited/input_your-company'
+
+2018-03-20 17:42:08 - [TEST_STEP][PASSED] - setText: Text 'please contact me I want to find out more' is set on object 'Object Repository/Page_CONTACT US  QAWorks Limited/textarea_your-message'
+
+2018-03-20 17:42:08 - [MESSAGE][PASSED] - Text 'please contact me I want to find out more' is set on object 'Object Repository/Page_CONTACT US  QAWorks Limited/textarea_your-message'
+
+2018-03-20 17:42:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_CONTACT US  QAWorks Limited/input_contact-us-send' is clicked on
+
+2018-03-20 17:42:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CONTACT US  QAWorks Limited/input_contact-us-send' is clicked on
+
+2018-03-20 17:42:08 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-03-20 17:42:09 - [MESSAGE][PASSED] - Browser is closed
+
+2018-03-20 17:42:09 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-20 17:42:11 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-20 17:42:11 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://www.qaworks.com/' successfully
+
+2018-03-20 17:42:16 - [MESSAGE][PASSED] - Navigate to 'http://www.qaworks.com/' successfully
+
+2018-03-20 17:42:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_QAWorks Limited - Software Qua/span_CONTACT US' is clicked on
+
+2018-03-20 17:42:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_QAWorks Limited - Software Qua/span_CONTACT US' is clicked on
+
+2018-03-20 17:42:17 - [TEST_STEP][PASSED] - setText: Text 'j.Bloggsj.Bloggsj.Bloggsj.Bloggsj.Bloggs' is set on object 'Object Repository/Page_CONTACT US  QAWorks Limited/input_your-name'
+
+2018-03-20 17:42:19 - [MESSAGE][PASSED] - Text 'j.Bloggsj.Bloggsj.Bloggsj.Bloggsj.Bloggs' is set on object 'Object Repository/Page_CONTACT US  QAWorks Limited/input_your-name'
+
+2018-03-20 17:42:19 - [TEST_STEP][PASSED] - setText: Text 'chakarovp@gmail.com' is set on object 'Object Repository/Page_CONTACT US  QAWorks Limited/input_your-email'
+
+2018-03-20 17:42:19 - [MESSAGE][PASSED] - Text 'chakarovp@gmail.com' is set on object 'Object Repository/Page_CONTACT US  QAWorks Limited/input_your-email'
+
+2018-03-20 17:42:19 - [TEST_STEP][PASSED] - setText: Text 'test automation' is set on object 'Object Repository/Page_CONTACT US  QAWorks Limited/input_your-company'
+
+2018-03-20 17:42:20 - [MESSAGE][PASSED] - Text 'test automation' is set on object 'Object Repository/Page_CONTACT US  QAWorks Limited/input_your-company'
+
+2018-03-20 17:42:20 - [TEST_STEP][PASSED] - setText: Text 'please contact me I want to find out more' is set on object 'Object Repository/Page_CONTACT US  QAWorks Limited/textarea_your-message'
+
+2018-03-20 17:42:20 - [MESSAGE][PASSED] - Text 'please contact me I want to find out more' is set on object 'Object Repository/Page_CONTACT US  QAWorks Limited/textarea_your-message'
+
+2018-03-20 17:42:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_CONTACT US  QAWorks Limited/input_contact-us-send' is clicked on
+
+2018-03-20 17:42:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CONTACT US  QAWorks Limited/input_contact-us-send' is clicked on
+
+2018-03-20 17:42:20 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-03-20 17:42:21 - [MESSAGE][PASSED] - Browser is closed
+
+2018-03-20 17:42:21 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-20 17:42:23 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-20 17:42:23 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://www.qaworks.com/' successfully
+
+2018-03-20 17:42:28 - [MESSAGE][PASSED] - Navigate to 'http://www.qaworks.com/' successfully
+
+2018-03-20 17:42:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_QAWorks Limited - Software Qua/span_CONTACT US' is clicked on
+
+2018-03-20 17:42:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_QAWorks Limited - Software Qua/span_CONTACT US' is clicked on
+
+2018-03-20 17:42:29 - [TEST_STEP][PASSED] - setText: Text 'j.Bloggs' is set on object 'Object Repository/Page_CONTACT US  QAWorks Limited/input_your-name'
+
+2018-03-20 17:42:30 - [MESSAGE][PASSED] - Text 'j.Bloggs' is set on object 'Object Repository/Page_CONTACT US  QAWorks Limited/input_your-name'
+
+2018-03-20 17:42:30 - [TEST_STEP][PASSED] - setText: Text 'chakarovp@gmail.com' is set on object 'Object Repository/Page_CONTACT US  QAWorks Limited/input_your-email'
+
+2018-03-20 17:42:31 - [MESSAGE][PASSED] - Text 'chakarovp@gmail.com' is set on object 'Object Repository/Page_CONTACT US  QAWorks Limited/input_your-email'
+
+2018-03-20 17:42:31 - [TEST_STEP][PASSED] - setText: Text 'This subject contains more than 2000 symbols. please contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out more' is set on object 'Object Repository/Page_CONTACT US  QAWorks Limited/input_your-company'
+
+2018-03-20 17:42:37 - [MESSAGE][PASSED] - Text 'This subject contains more than 2000 symbols. please contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out more' is set on object 'Object Repository/Page_CONTACT US  QAWorks Limited/input_your-company'
+
+2018-03-20 17:42:37 - [TEST_STEP][PASSED] - setText: Text 'please contact me I want to find out more' is set on object 'Object Repository/Page_CONTACT US  QAWorks Limited/textarea_your-message'
+
+2018-03-20 17:42:38 - [MESSAGE][PASSED] - Text 'please contact me I want to find out more' is set on object 'Object Repository/Page_CONTACT US  QAWorks Limited/textarea_your-message'
+
+2018-03-20 17:42:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_CONTACT US  QAWorks Limited/input_contact-us-send' is clicked on
+
+2018-03-20 17:42:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CONTACT US  QAWorks Limited/input_contact-us-send' is clicked on
+
+2018-03-20 17:42:38 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-03-20 17:42:39 - [MESSAGE][PASSED] - Browser is closed
+
+2018-03-20 17:42:39 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-20 17:42:41 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-20 17:42:41 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://www.qaworks.com/' successfully
+
+2018-03-20 17:42:45 - [MESSAGE][PASSED] - Navigate to 'http://www.qaworks.com/' successfully
+
+2018-03-20 17:42:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_QAWorks Limited - Software Qua/span_CONTACT US' is clicked on
+
+2018-03-20 17:42:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_QAWorks Limited - Software Qua/span_CONTACT US' is clicked on
+
+2018-03-20 17:42:47 - [TEST_STEP][PASSED] - setText: Text 'j.Bloggs' is set on object 'Object Repository/Page_CONTACT US  QAWorks Limited/input_your-name'
+
+2018-03-20 17:42:48 - [MESSAGE][PASSED] - Text 'j.Bloggs' is set on object 'Object Repository/Page_CONTACT US  QAWorks Limited/input_your-name'
+
+2018-03-20 17:42:48 - [TEST_STEP][PASSED] - setText: Text 'chakarovp@gmail.com' is set on object 'Object Repository/Page_CONTACT US  QAWorks Limited/input_your-email'
+
+2018-03-20 17:42:48 - [MESSAGE][PASSED] - Text 'chakarovp@gmail.com' is set on object 'Object Repository/Page_CONTACT US  QAWorks Limited/input_your-email'
+
+2018-03-20 17:42:48 - [TEST_STEP][PASSED] - setText: Text 'test automation' is set on object 'Object Repository/Page_CONTACT US  QAWorks Limited/input_your-company'
+
+2018-03-20 17:42:49 - [MESSAGE][PASSED] - Text 'test automation' is set on object 'Object Repository/Page_CONTACT US  QAWorks Limited/input_your-company'
+
+2018-03-20 17:42:49 - [TEST_STEP][PASSED] - setText: Text 'This message contains more than 2000 symbols. please contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out more' is set on object 'Object Repository/Page_CONTACT US  QAWorks Limited/textarea_your-message'
+
+2018-03-20 17:43:03 - [MESSAGE][PASSED] - Text 'This message contains more than 2000 symbols. please contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out moreplease contact me I want to find out more' is set on object 'Object Repository/Page_CONTACT US  QAWorks Limited/textarea_your-message'
+
+2018-03-20 17:43:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_CONTACT US  QAWorks Limited/input_contact-us-send' is clicked on
+
+2018-03-20 17:43:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CONTACT US  QAWorks Limited/input_contact-us-send' is clicked on
+
+2018-03-20 17:43:03 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-03-20 17:43:04 - [MESSAGE][PASSED] - Browser is closed
+
+2018-03-20 17:43:04 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-20 17:43:06 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-20 17:43:06 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://www.qaworks.com/' successfully
+
+2018-03-20 17:43:10 - [MESSAGE][PASSED] - Navigate to 'http://www.qaworks.com/' successfully
+
+2018-03-20 17:43:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_QAWorks Limited - Software Qua/span_CONTACT US' is clicked on
+
+2018-03-20 17:43:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_QAWorks Limited - Software Qua/span_CONTACT US' is clicked on
+
+2018-03-20 17:43:11 - [TEST_STEP][PASSED] - setText: Text 'j.Bloggs' is set on object 'Object Repository/Page_CONTACT US  QAWorks Limited/input_your-name'
+
+2018-03-20 17:43:12 - [MESSAGE][PASSED] - Text 'j.Bloggs' is set on object 'Object Repository/Page_CONTACT US  QAWorks Limited/input_your-name'
+
+2018-03-20 17:43:12 - [TEST_STEP][PASSED] - setText: Text ' j.Bloggs@qaworks.com' is set on object 'Object Repository/Page_CONTACT US  QAWorks Limited/input_your-email'
+
+2018-03-20 17:43:13 - [MESSAGE][PASSED] - Text ' j.Bloggs@qaworks.com' is set on object 'Object Repository/Page_CONTACT US  QAWorks Limited/input_your-email'
+
+2018-03-20 17:43:13 - [TEST_STEP][PASSED] - setText: Text 'test automation' is set on object 'Object Repository/Page_CONTACT US  QAWorks Limited/input_your-company'
+
+2018-03-20 17:43:13 - [MESSAGE][PASSED] - Text 'test automation' is set on object 'Object Repository/Page_CONTACT US  QAWorks Limited/input_your-company'
+
+2018-03-20 17:43:13 - [TEST_STEP][PASSED] - setText: Text 'please contact me I want to find out more' is set on object 'Object Repository/Page_CONTACT US  QAWorks Limited/textarea_your-message'
+
+2018-03-20 17:43:13 - [MESSAGE][PASSED] - Text 'please contact me I want to find out more' is set on object 'Object Repository/Page_CONTACT US  QAWorks Limited/textarea_your-message'
+
+2018-03-20 17:43:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_CONTACT US  QAWorks Limited/input_contact-us-send' is clicked on
+
+2018-03-20 17:43:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CONTACT US  QAWorks Limited/input_contact-us-send' is clicked on
+
+2018-03-20 17:43:14 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-03-20 17:43:14 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-03-20 17:40:02 - [TEST_SUITE][PASSED] - TestSuite1: Test Cases/TestCase01]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
