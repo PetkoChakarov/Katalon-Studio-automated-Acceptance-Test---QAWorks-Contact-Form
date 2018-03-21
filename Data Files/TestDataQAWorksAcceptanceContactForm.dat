@@ -6,7 +6,7 @@
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
    <dataFileGUID>2858ec70-1ab0-415f-a5ea-c58dcd8c68d4</dataFileGUID>
-   <dataSourceUrl>C:\Users\Petko\Katalon Studio\QAWorksAcceptanceTestContactForm\AcceptanceTestContactFormQAWorks.xlsx</dataSourceUrl>
+   <dataSourceUrl>/Users/apple/git/newone/AcceptanceTestContactFormQAWorks.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
    <isInternalPath>false</isInternalPath>
    <query></query>
